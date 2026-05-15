@@ -18,8 +18,8 @@
 
 <body>
     <header>
-        <nav class="bg-violet-900 w-screen text-white font-bold flex justify-between items-center px-8 py-4">
-            <h1 class="text-2xl">Tech<span class="text-pink-500">Wave</span></h1>
+        <nav class="bg-violet-900 w-full text-white font-bold flex justify-between items-center px-8 py-4">
+            <h1 class="text-2xl">Tech<span class="bg-gradient-to-r from-pink-500 to-purple-700 bg-clip-text text-transparent">Wave</span></h1>
             <ul class="gap-4 hidden md:flex">
                 <li>About</li>
                 <li>Episodes</li>
@@ -31,12 +31,12 @@
     <main>
         <!-- hero section  -->
         <section
-            class="relative bg-[url('/assets/hero-bg.png')] h-[50vh] w-screen bg-cover bg-center md:h-[80vh] flex flex-col items-center justify-end gap-4 pb-4">
-            <img class="w-22 md:w-60 absolute top-12 left-26 md:top-1/6 md:left-[42vw]" src="assets/hero-circle.png"
+            class="relative bg-[url('/assets/hero-bg.png')] h-[50vh] w-full bg-cover bg-center md:h-[100vh] flex flex-col items-center justify-end gap-4 pb-4">
+            <img class="w-22 md:w-60 absolute top-12 left-26 md:top-1/8 md:left-[39vw]" src="assets/hero-circle.png"
                 alt="">
-            <img class="absolute top-17 left-33 md:top-[20vh] md:left-[47vw] w-8 md:w-26" src="assets/microphone.png"
+            <img class="absolute top-17 left-33 md:top-[19vh] md:left-[45vw] w-8 md:w-26" src="assets/microphone.png"
                 alt="">
-            <h2 class="text-3xl text-white font-bold md:text-6xl">TechWave</h2>
+            <h2 class="text-3xl text-white font-bold md:text-6xl ">TechWave</h2>
             <p class="text-gray-500 text-center">Your daily dose of tech insights, productivity hacks, and personal
                 growth</p>
 
@@ -50,15 +50,15 @@
         </section>
 
         <!-- review section  -->
-        <section class="bg-[#1A0B2E] text-center md:flex flex-col gap-8 md:h-[50vh] items-center w-screen">
-            <h3 class="text-4xl text-white font-bold text-center md:text-7xl pt-4 ">About The Podcast</h3>
+        <section class="bg-[#1A0B2E] text-center md:flex flex-col gap-8 md:h-[100vh] items-center w-full">
+            <h3 class="text-4xl text-white font-bold text-center md:text-7xl md:mjt-8 ">About The Podcast</h3>
             <p class="font-semibold text-gray-300 max-w-2xl ">TechWave is your go-to podcast for staying ahead in the
                 fast-paced world of technology. We break down
                 complex topics into digestible insights, explore productivity strategies that actually work, and share
                 stories of personal growth from industry leaders.
                 Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
 
-            <!-- grid section  -->
+            <!-- fleX section  -->
             <div class="flex justify-center gap-6 text-center flex-wrap md:flex-nowrap md:gap-4 ">
                 <div class="flex flex-col gap-4">
                     <h3 class="text-green-400 font-bold text-3xl">150K+</h3>
@@ -80,9 +80,10 @@
 
         </section>
         <!-- grid section  -->
-        <section class="bg-[#230E3D] p-4 w-screen">
-            <h4 class="text-xl font-bold text-white text-center mb-2 md:text-4xl md:mb-8">Why Choose TechWave</h4>
-            <div class="grid grid-cols-1 gap-4 md:grid-cols-3 grid-rows-3 md:gap-6">
+        <section class="bg-[#230E3D] p-4 w-full">
+            <h4 class="text-xl font-bold text-white text-center mb-2 md:text-4xl md:mb-8 md:pt-[120px]">Why Choose
+                TechWave</h4>
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:grid-rows-3 md:gap-6 md:py-[120px] md:px-[200px]">
                 <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:row-span-2 justify-center">
                     <img class="w-10 h-10" src="assets/headphone.png">
                     <p class="text-xl text-white font-bold">Premium Audio Quality</p>
@@ -121,9 +122,9 @@
             </div>
         </section>
         <!-- episodes section -->
-        <section class="p-4 w-screen bg-[#230E3D]">
-            <div class="grid grid-col-1 gap-4 md:grid-cols-3 ">
-                <h4 class="text-white font-bold text-2xl text-center col-span-3">Featured Episodes</h4>
+        <section class="p-4 w-full bg-[#230E3D]">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:py-[120px] md:px-[200px]">
+                <h4 class="text-white font-bold text-2xl text-center md:col-span-3 md:text-5xl">Featured Episodes</h4>
                 <div class="flex flex-col gap-2 rounded-lg bg-[#351165]">
                     <iframe class="rounded-t-lg" height="315"
                         src="https://www.youtube.com/embed/XXtKO3B-mcM?si=88MLEqSpdWD35Wwj" title="YouTube video player"
@@ -159,11 +160,14 @@
                     <span class="text-green-400 font-bold px-2 pb-2"><img class="inline mr-2" src="assets/clock.png"
                             alt="">50 min</span>
                 </div>
-                <h4 class="font-bold text-white text-center md:col-span-3">Meet The Host</h4>
-                <div class="flex flex-col items-center gap-2 rounded-lg bg-[#351165] sm:text-center p-4 md:col-span-3 md:flex-row md:rounded-4xl md:p-8">
+                <h4 class="font-bold text-2xl text-white text-center md:col-span-3 md:text-5xl ">Meet The Host</h4>
+                <div
+                    class="flex flex-col items-center gap-2 rounded-lg bg-[#351165] sm:text-center p-4 md:col-span-3 md:flex-row md:rounded-4xl md:p-8">
                     <img class="w-32" src="assets/host.png" alt="">
                     <div class="md:flex md:flex-col md:items-start md:gap-4 ">
-                        <p class="text-slate-400 md:text-start">Tech entrepreneur, productivity expert, and lifelong learner. Alex
+                        <p class="text-slate-400 md:text-start text-center mb-4">Tech entrepreneur, productivity expert,
+                            and lifelong
+                            learner. Alex
                             has been in the tech industry for over 10 years, working with startups and Fortune 500
                             companies. Through TechWave, Alex shares insights from industry leaders and practical advice
                             for anyone looking to grow in tech.</p>
@@ -178,6 +182,21 @@
                 </div>
             </div>
         </section>
+        <!-- footer section -->
+        <footer class="w-auto bg-violet-950 bg-[url('/assets/footer-bg.png')] h-44 bg-cover bg-center flex flex-col gap-4 pb-12">
+            <h4 class="font-bold text-white text-4xl text-center">Tech<span
+                    class="bg-gradient-to-r from-pink-500 to-purple-700 bg-clip-text text-transparent">Wave</span></h4>
+            <ul class="flex gap-4 justify-center">
+                <li class="text-slate-400 text-sm"><img class="inline" src="assets/spotify.png">Spotify</li>
+                <li class="text-slate-400 text-sm"><img class="inline" src="assets/apple-podcast.png">Apple Podcasts
+                </li>
+            </ul>
+            <ul class="flex justify-center gap-8">
+                <li class="text-slate-400 text-sm"><img class="inline" src="assets/youtube-podcast.png">YouTube</li>
+                <li class="text-slate-400 text-sm"><img class="inline" src="assets/twitter.png">Twitter</li>
+            </ul>
+            <p class="text-slate-400 text-sm text-center">Copyright &copy;2026 TechWave Podcast.All rights reserved.</p>
+        </footer>
     </main>
 </body>
 
