@@ -34,7 +34,7 @@
             class="relative bg-[url('/assets/hero-bg.png')] h-[50vh] w-screen bg-cover bg-center flex flex-col items-center justify-end gap-4 pb-4">
             <img class="w-22 absolute top-12 left-26" src="assets/hero-circle.png" alt="">
             <img class="absolute top-17 left-33 w-8" src="assets/microphone.png" alt="">
-            <h2 class="text-3xl text-white font-bold">TechWave</h2>
+            <h2 class="text-3xl text-white font-bold md:text-6xl">TechWave</h2>
             <p class="text-gray-500 text-center">Your daily dose of tech insights, productivity hacks, and personal
                 growth</p>
 
@@ -48,35 +48,71 @@
         </section>
 
         <!-- review section  -->
-        <section class="bg-[#1A0B2E] text-center">
-            <h3 class="text-4xl text-white font-bold">About The Podcast</h3>
-            <p class="font-semibold text-gray-300">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down
+        <section class="bg-[#1A0B2E] text-center md:flex flex-col gap-8 md:h-[50vh] items-center w-screen">
+            <h3 class="text-4xl text-white font-bold text-center md:text-7xl pt-4 ">About The Podcast</h3>
+            <p class="font-semibold text-gray-300 max-w-2xl ">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down
             complex topics into digestible insights, explore productivity strategies that actually work, and share
             stories of personal growth from industry leaders.
             Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
             
             <!-- grid section  -->
-            <div class="flex justify-center gap-6 text-center flex-wrap md:flex-nowrap">
-                <div>
+            <div class="flex justify-center gap-6 text-center flex-wrap md:flex-nowrap md:gap-4 ">
+                <div class="flex flex-col gap-4">
                     <h3 class="text-green-400 font-bold text-3xl">150K+</h3>
                     <p class="text-slate-300 font-semibold uppercase text-xs">Monthly Listeners</p>
                 </div>
-                <div>
+                <div class="flex flex-col gap-4">
                     <h3 class="text-green-400 font-bold text-3xl">200+</h3>
                     <p class="text-slate-300 font-semibold uppercase text-xs">Episodes Published</p>
                 </div>
-                <div>
+                <div class="flex flex-col gap-4">
                     <h3 class="text-green-400 font-bold text-3xl">4.9</h3>
                     <p class="text-slate-300 font-semibold uppercase text-xs">Average Rating</p>
                 </div>
-                <div>
+                <div class="flex flex-col gap-4">
                     <h3 class="text-green-400 font-bold text-3xl">50+</h3>
                     <p class="text-slate-300 font-semibold uppercase text-xs">Industry Experts</p>
                 </div>
             </div>
 
         </section>
+        <!-- grid section  -->
+         <section class="bg-[#230E3D] p-4 w-screen">
+                <h4 class="text-xl font-bold text-white text-center mb-2 md:text-6xl md:mb-8">Why Choose TechWave</h4>
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-3 grid-rows-3">
+                    <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:row-span-2">
+                        <img class="w-10 h-10" src="assets/headphone.png">
+                        <p class="text-xl text-white font-bold">Premium Audio Quality</p>
+                        <p class="text-slate-300">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.    
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2">
+                        <img class="w-10 h-15" src="assets/device.png">
+                        <p class="text-xl text-white font-bold">Mobile Friendly</p>
+                        <p class="text-slate-300">Listen on the go with seamless mobile experience and offline downloads.    
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2">
+                        <img class="w-10 h-10" src="assets/location.png">
+                        <p class="text-xl text-white font-bold">Global Community</p>
+                        <p class="text-slate-300">Connect with tech enthusiasts from over 120 countries worldwide.  
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2">
+                        <img class="w-10 h-10" src="assets/resource.png">
+                        <p class="text-xl text-white font-bold">Exclusive Interviews</p>
+                        <p class="text-slate-300">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.  
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg ">
+                        <img class="w-10 h-10" src="assets/resource.png">
+                        <p class="text-xl text-white font-bold">Rich Resources</p>
+                        <p class="text-slate-300">Access show notes, transcripts, and additional learning materials for every episode. 
+                        </p>
+                    </div>
 
+                </div>
+         </section>
     </main>
 </body>
 
