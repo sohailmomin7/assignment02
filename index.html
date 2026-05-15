@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- tailwind css -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <title>Document</title>
 
     <!-- font awesome cdn -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
         <nav class="bg-violet-900 text-white font-bold flex justify-between items-center px-8 py-4">
@@ -26,10 +30,55 @@
     </header>
     <main>
         <!-- hero section  -->
-        <section class="relative bg-[url('/assets/hero-bg.png')] h-[40vh] w-screen bg-cover bgcenter" >
-           <img class="w-22 absolute top-14 left-53" src="assets/hero-circle.png" alt="">
-           <img class="absolute top-19 left-60 w-8" src="assets/microphone.png" alt="">
+        <section
+            class="relative bg-[url('/assets/hero-bg.png')] h-[50vh] w-screen bg-cover bg-center flex flex-col items-center justify-end gap-4 pb-4">
+            <img class="w-22 absolute top-12 left-26" src="assets/hero-circle.png" alt="">
+            <img class="absolute top-17 left-33 w-8" src="assets/microphone.png" alt="">
+            <h2 class="text-3xl text-white font-bold">TechWave</h2>
+            <p class="text-gray-500 text-center">Your daily dose of tech insights, productivity hacks, and personal
+                growth</p>
+
+            <!-- buttons section -->
+            <div class="flex items-center gap-2">
+                <button class="bg-pink-300 text-white font-bold px-4 py-2 rounded-2xl"><img class="inline pr-2"
+                        src="assets/spotify.png"> Spotify</button>
+                <button class="text-white border-2 rounded-2xl py-2 px-4 border-green-500"><img class="inline pr-2"
+                        src="assets/message.png">Subscribe</button>
+            </div>
         </section>
+
+        <!-- review section  -->
+        <section class="bg-[#1A0B2E] text-center">
+            <h3 class="text-4xl text-white font-bold">About The Podcast</h3>
+            <p class="font-semibold text-gray-300">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. We break down
+            complex topics into digestible insights, explore productivity strategies that actually work, and share
+            stories of personal growth from industry leaders.
+            Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            
+            <!-- grid section  -->
+            <div class="flex justify-center gap-6 text-center flex-wrap md:flex-nowrap">
+                <div>
+                    <h3 class="text-green-400 font-bold text-3xl">150K+</h3>
+                    <p class="text-slate-300 font-semibold uppercase text-xs">Monthly Listeners</p>
+                </div>
+                <div>
+                    <h3 class="text-green-400 font-bold text-3xl">200+</h3>
+                    <p class="text-slate-300 font-semibold uppercase text-xs">Episodes Published</p>
+                </div>
+                <div>
+                    <h3 class="text-green-400 font-bold text-3xl">4.9</h3>
+                    <p class="text-slate-300 font-semibold uppercase text-xs">Average Rating</p>
+                </div>
+                <div>
+                    <h3 class="text-green-400 font-bold text-3xl">50+</h3>
+                    <p class="text-slate-300 font-semibold uppercase text-xs">Industry Experts</p>
+                </div>
+            </div>
+
+        </section>
+
     </main>
 </body>
+
 </html>
+<!-- -->
