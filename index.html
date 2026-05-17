@@ -31,9 +31,9 @@
     <main>
         <!-- hero section  -->
         <section
-            class="relative bg-[url('./assets/hero-bg.png')] overflow-hidden min-h-72 bg-cover bg-no-repeat bg-center md:min-h-[768px] flex flex-col items-center justify-end gap-4 pb-4">
-            <img class="w-22 md:w-60 absolute top-12 left-1/2 -translate-x-1/2 md:left-[39vw] md:translate-x-0 md:top-1/8" src="assets/hero-circle.png">
-            <img class="absolute top-17 left-1/2 -translate-x-1/2 md:top-[19vh] md:left-[45vw] md:translate-x-0 w-8 md:w-26" src="assets/microphone.png">
+            class="relative bg-[url('./assets/hero-bg.png')] overflow-hidden min-h-72 bg-cover bg-no-repeat bg-center md:min-h-[800px] flex flex-col items-center justify-end gap-4 pb-4">
+            <img class="w-22 md:w-60 absolute top-12 left-1/2 -translate-x-1/2 md:left-[41vw] md:translate-x-0 md:top-1/8" src="assets/hero-circle.png">
+            <img class="absolute top-17 left-1/2 -translate-x-1/2 md:top-[14vh] md:left-[46vw] md:translate-x-0 w-8 md:w-26" src="assets/microphone.png">
             <h2 class="text-3xl text-white font-bold md:text-6xl">TechWave</h2>
             <p class="text-gray-500 text-center">Your daily dose of tech insights, productivity hacks, and personal
                 growth</p>
@@ -81,8 +81,8 @@
         <section class="bg-[#230E3D] p-4">
             <h4 class="text-xl font-bold text-white text-center mb-2 md:text-4xl md:mb-8 md:pt-[120px]">Why Choose
                 TechWave</h4>
-            <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:grid-rows-3 md:gap-6 md:py-[120px] md:px-[200px]">
-                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:row-span-2 justify-center">
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:grid-rows-3 md:gap-6 md:w-auto ">
+                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:row-span-2 justify-center md:rounded-4xl">
                     <img class="w-10 h-10" src="assets/headphone.png">
                     <p class="text-xl text-white font-bold">Premium Audio Quality</p>
                     <p class="text-slate-300">Experience crystal-clear sound with professional-grade recording equipment
@@ -90,19 +90,19 @@
                         and platforms.
                     </p>
                 </div>
-                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2 justify-center">
+                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2 justify-center md:rounded-4xl">
                     <img class="w-10 h-15" src="assets/device.png">
                     <p class="text-xl text-white font-bold">Mobile Friendly</p>
                     <p class="text-slate-300">Listen on the go with seamless mobile experience and offline downloads.
                     </p>
                 </div>
-                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2 justify-center">
+                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2 justify-center md:rounded-4xl">
                     <img class="w-10 h-10" src="assets/location.png">
                     <p class="text-xl text-white font-bold">Global Community</p>
                     <p class="text-slate-300">Connect with tech enthusiasts from over 120 countries worldwide.
                     </p>
                 </div>
-                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2 justify-center">
+                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg md:col-span-2 justify-center md:rounded-4xl">
                     <img class="w-10 h-10" src="assets/resource.png">
                     <p class="text-xl text-white font-bold">Exclusive Interviews</p>
                     <p class="text-slate-300">Get unprecedented access to industry titans, startup founders, and tech
@@ -110,7 +110,7 @@
                         into their journeys, failures, and success strategies.
                     </p>
                 </div>
-                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg  md:justify-center">
+                <div class="flex flex-col gap-4 p-4 bg-[#351165] rounded-lg  md:justify-center md:rounded-4xl">
                     <img class="w-10 h-10" src="assets/resource.png">
                     <p class="text-xl text-white font-bold">Rich Resources</p>
                     <p class="text-slate-300">Access show notes, transcripts, and additional learning materials for
@@ -160,9 +160,9 @@
                 </div>
                 <h4 class="font-bold text-2xl text-white text-center md:col-span-3 md:text-5xl ">Meet The Host</h4>
                 <div
-                    class="flex flex-col items-center gap-2 rounded-lg bg-[#351165] sm:text-center p-4 md:col-span-3 md:flex-row md:rounded-4xl md:p-8">
+                    class="flex flex-col items-center gap-2 rounded-lg bg-[#351165] sm:text-center p-4 md:col-span-3 md:flex-row md:rounded-4xl md:p-8 md:gap-4">
                     <img class="w-32" src="assets/host.png" alt="">
-                    <div class="md:flex md:flex-col md:items-start md:gap-4 ">
+                    <div class="md:flex md:flex-col md:items-start">
                         <p class="text-slate-400 md:text-start text-center mb-4">Tech entrepreneur, productivity expert,
                             and lifelong
                             learner. Alex
@@ -181,7 +181,7 @@
             </div>
         </section>
         <!-- footer section -->
-        <footer class=" bg-violet-950 bg-[url('./assets/footer-bg.png')] min-h-44 bg-cover bg-center flex flex-col gap-4 pb-12">
+        <footer class=" bg-violet-950 bg-[url('./assets/footer-bg.png')] min-h-44 bg-cover bg-center flex flex-col gap-4 py-12">
             <h4 class="font-bold text-white text-4xl text-center">Tech<span
                     class="bg-gradient-to-r from-pink-500 to-purple-700 bg-clip-text text-transparent">Wave</span></h4>
             <div class="md:flex justify-center gap-8">
