@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <title>Document</title>
+    <title>TechWave Podcast</title>
 
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -16,7 +16,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <header>
         <nav class="bg-violet-900 w-full text-white font-bold flex justify-between items-center px-8 py-4">
             <h1 class="text-2xl">Tech<span class="bg-gradient-to-r from-pink-500 to-purple-700 bg-clip-text text-transparent">Wave</span></h1>
@@ -25,18 +25,16 @@
                 <li>Episodes</li>
                 <li>Host</li>
             </ul>
-            <img src="assets/hamburger-menu.png" alt="menu-logo">
+            <img class="w-3" src="assets/hamburger-menu.png" alt="menu-logo">
         </nav>
     </header>
     <main>
         <!-- hero section  -->
         <section
-            class="relative bg-[url('/assets/hero-bg.png')] h-[50vh] w-full bg-cover bg-center md:h-[100vh] flex flex-col items-center justify-end gap-4 pb-4">
-            <img class="w-22 md:w-60 absolute top-12 left-26 md:top-1/8 md:left-[39vw]" src="assets/hero-circle.png"
-                alt="">
-            <img class="absolute top-17 left-33 md:top-[19vh] md:left-[45vw] w-8 md:w-26" src="assets/microphone.png"
-                alt="">
-            <h2 class="text-3xl text-white font-bold md:text-6xl ">TechWave</h2>
+            class="relative bg-[url('./assets/hero-bg.png')] overflow-hidden min-h-72 bg-cover bg-no-repeat bg-center md:min-h-[768px] flex flex-col items-center justify-end gap-4 pb-4">
+            <img class="w-22 md:w-60 absolute top-12 left-1/2 -translate-x-1/2 md:left-[39vw] md:translate-x-0 md:top-1/8" src="assets/hero-circle.png">
+            <img class="absolute top-17 left-1/2 -translate-x-1/2 md:top-[19vh] md:left-[45vw] md:translate-x-0 w-8 md:w-26" src="assets/microphone.png">
+            <h2 class="text-3xl text-white font-bold md:text-6xl">TechWave</h2>
             <p class="text-gray-500 text-center">Your daily dose of tech insights, productivity hacks, and personal
                 growth</p>
 
@@ -50,8 +48,8 @@
         </section>
 
         <!-- review section  -->
-        <section class="bg-[#1A0B2E] text-center md:flex flex-col gap-8 md:h-[100vh] items-center w-full">
-            <h3 class="text-4xl text-white font-bold text-center md:text-7xl md:mjt-8 ">About The Podcast</h3>
+        <section class="bg-[#1A0B2E] flex flex-col gap-8 py-4 px-4 text-center items-center">
+            <h3 class="text-4xl text-white font-bold text-center md:text-7xl md:mt-8 ">About The Podcast</h3>
             <p class="font-semibold text-gray-300 max-w-2xl ">TechWave is your go-to podcast for staying ahead in the
                 fast-paced world of technology. We break down
                 complex topics into digestible insights, explore productivity strategies that actually work, and share
@@ -59,7 +57,7 @@
                 Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
 
             <!-- fleX section  -->
-            <div class="flex justify-center gap-6 text-center flex-wrap md:flex-nowrap md:gap-4 ">
+            <div class="flex justify-center gap-6 text-center flex-wrap md:flex-nowrap md:gap-8 ">
                 <div class="flex flex-col gap-4">
                     <h3 class="text-green-400 font-bold text-3xl">150K+</h3>
                     <p class="text-slate-300 font-semibold uppercase text-xs">Monthly Listeners</p>
@@ -80,7 +78,7 @@
 
         </section>
         <!-- grid section  -->
-        <section class="bg-[#230E3D] p-4 w-full">
+        <section class="bg-[#230E3D] p-4">
             <h4 class="text-xl font-bold text-white text-center mb-2 md:text-4xl md:mb-8 md:pt-[120px]">Why Choose
                 TechWave</h4>
             <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:grid-rows-3 md:gap-6 md:py-[120px] md:px-[200px]">
@@ -122,11 +120,11 @@
             </div>
         </section>
         <!-- episodes section -->
-        <section class="p-4 w-full bg-[#230E3D]">
+        <section class="p-4 bg-[#230E3D]">
             <div class="grid grid-cols-1 gap-4 md:grid-cols-3 md:py-[120px] md:px-[200px]">
                 <h4 class="text-white font-bold text-2xl text-center md:col-span-3 md:text-5xl">Featured Episodes</h4>
                 <div class="flex flex-col gap-2 rounded-lg bg-[#351165]">
-                    <iframe class="rounded-t-lg" height="315"
+                    <iframe class="rounded-t-lg w-full" height="315" width="100%"
                         src="https://www.youtube.com/embed/XXtKO3B-mcM?si=88MLEqSpdWD35Wwj" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -137,7 +135,7 @@
                             alt="">32 min</span>
                 </div>
                 <div class="flex flex-col gap-2 rounded-lg bg-[#351165] ">
-                    <iframe class="rounded-t-lg" height="315"
+                    <iframe class="rounded-t-lg w-full" height="315" width="100%"
                         src="https://www.youtube.com/embed/PU54b7-B9xQ?si=tpQfBnsedMUGvfZL" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -150,7 +148,7 @@
 
                 </div>
                 <div class="flex flex-col gap-2 rounded-lg bg-[#351165]">
-                    <iframe class="rounded-t-lg" height="315"
+                    <iframe class="rounded-t-lg w-full" height="315" width="100%"
                         src="https://www.youtube.com/embed/Ji7NxxG63kA?si=23caDYUY3GSg3I4t" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -183,7 +181,7 @@
             </div>
         </section>
         <!-- footer section -->
-        <footer class="w-auto bg-violet-950 bg-[url('/assets/footer-bg.png')] h-44 bg-cover bg-center flex flex-col gap-4 pb-12">
+        <footer class=" bg-violet-950 bg-[url('./assets/footer-bg.png')] min-h-44 bg-cover bg-center flex flex-col gap-4 pb-12">
             <h4 class="font-bold text-white text-4xl text-center">Tech<span
                     class="bg-gradient-to-r from-pink-500 to-purple-700 bg-clip-text text-transparent">Wave</span></h4>
             <div class="md:flex justify-center gap-8">
